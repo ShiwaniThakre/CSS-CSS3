@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CakeHub Webpage</title>
+	<link rel="stylesheet" href="CakeHub.css">
+<style>
+		*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+		}
+		header{
+			width: 100%;	
+			height: 100vh;
+			position: relative;
+			background-color: rgb(246, 201, 228);
+		}
+		#im1
+		{
+		  width: 450px;
+		  border-radius: 50%;
+		  margin-left: 900px;
+		  margin-top: -450px;
+		}
+		.grow img
+		{
+			transition: 1s ease;
+		}
+		.grow img:hover
+		{
+          transform: scale(1.2);
+           transition: 1s ease;
+		}
+		nav{
+			position: fixed;
+			width: 100%;
+			height: 70px;
+			padding: 0px 70px;
+			background: white;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 2px 0px 5px grey;
+		}
+		.logo{
+			font-weight: bold;
+			font-size: 4em;
+			letter-spacing: 2px;
+			padding-left: 80px;
+			font-family:'Bradley hand',cursive;
+		}
+		
+		.logo span{
+			color: brown;
+			font-family:'Bradley hand',cursive;
+		}
+		.menu a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 30px;
+		}
+		.menu a:last-child{
+			background: brown;
+			color: white;
+			border-radius: 8px;
+		}
+
+		.h-text{
+			top: auto;
+			margin-left: 130px;
+			padding: 20px;
+
+		}
+		.h-text p{
+			margin-top: 150px;
+			color: #262626;
+			letter-spacing: 3px;
+			font-weight: bold;
+			
+		}
+		.h-text h1{
+			font-size: 4em;
+			line-height: 1.5em;
+			
+		}
+		.h-text h1 span{
+				color: brown;
+		}
+		.h-text h2{
+			font-size: 3em;
+			margin-bottom: 0.5em;
+			font-family: 'Baskerville',serif;
+		}
+		#order{
+			text-decoration: none;
+			color: white;
+			background: brown;
+			border-radius: 8px;
+			padding: 10px 20px;
+		}
+		#dis{
+			text-decoration: none;
+			color: white;
+			background: #262626;
+			padding: 10px 20px;
+			border-radius: 8px;
+		}
+		#div2
+       {
+        height: 450px;
+        background-color: #9b67a1;
+       }
+       #div3
+       {
+        height: 2050px;
+        background-color: #d5b8d9;
+       }
+       #div4
+       {
+        height: 850px;
+		background-image: linear-gradient(#9db390, rgb(101, 81, 130));
+       }
+
+</style>
+</head>
+<body>
+<header>
+
+	<nav>
+		<div class="logo"><img src="cakelogo.jpeg" height="50px" width="50px"><span>Cake</span>Hub</div>
+		<div class="menu">
+			<a>Delivered to:</a>
+			<a><img src="location.png" height="15px" width="15px">Current Location <b>Pune, Maharashtra</b></a>
+			<a><input class="srch" type="search" placeholder="Search Food" aria-label="Search"></a>
+			<a href="#">Login</a>
+		</div>
+	</nav>
+	<div class="h-text">
+			<p>What a heavenly delight!</p>
+		<h1>Count the memories,<br><span>not the calories.</span></h1><br>
+		<h2>Cake of the Week</h2>
+		<a href="#" id="order">Order now!!</a>
+		<a href="#" id="dis">25% Off Hurry!!</a>
+	</div><br>
+	
+	<!-- <div class="last1">
+		<div><img src="delivery.jpeg" height="100px" width="300px"></div>
+		<div><img src="pickup.jpeg" height="100px" width="300px"></div>
+		<a><input class="srch" type="search" placeholder="Search Food" aria-label="Search"></a>
+	</div> -->
+	<div class="grow">
+	<img id="im1" src="Cakes.jpg">
+    </div>
+</header><hr width="100%" color=rgb(41)>
+
+<!-- DIVISION THREE: -->
+<div id="div2">
+	<div id="g1" class="gallery">
+		<a target="_blank" href="Cake1.webp">
+		  <img src="Cake1.webp" width="600" height="400">
+		</a>
+		<div class="desc">Dark Choco Chips Cake</div>
+		<div class="price"><a href="#" id="tag">upto 25% off</a></div>
+	  </div>
+	  
+	  <div class="gallery">
+		<a target="_blank" href="Cake2.webp">
+		  <img src="Cake2.webp"  width="600" height="400">
+		</a>
+		<div class="desc">Violet Rose Delight Cake</div>
+		<div class="price"><a href="#" id="tag">upto 15% off</a></div>
+	  </div>
+	  
+	  <div class="gallery">
+		<a target="_blank" href="Cake3.webp">
+		  <img src="Cake3.webp"  width="600" height="400">
+		</a>
+		<div class="desc">ButterScotch  Cake</div>
+		<div class="price"><a href="#" id="tag">flat 50rs off</a></div>
+	  </div>
+	  
+	  <div class="gallery">
+		<a target="_blank" href="Cake4.png">
+		  <img src="Cake4.png" width="600" height="400">
+		</a>
+		<div class="desc">Blueberry Flavoured Cake</div>
+		<div class="price"><a href="#" id="tag">50%off on combo</a></div>
+	  </div>
+	  
+</div>
+
+<!-- DIVISION FOUR: -->
+<div id="div3">
+	<h3>How Does It Work</h3>
+	  <div class="column">
+		<img src="location.png">
+		<p class="sub">Select location</p>
+		<p class="subline"> Choose the location where your food will be delivered.</p>
+
+	  </div>
+	  <div class="column">
+		<img src="order.png">
+		<div class="sub">Choose order</div>
+		<div class="subline"> Check over hundreds of menus to pick your favorite food.</div>
+	  </div>
+	  <div class="column">
+		<img src="pay.png">
+		<div class="sub">Pay advanced</div>
+		<div class="subline"> It's quick, safe, and simple. Select several methods of payment.</div>
+	  </div>
+	  <div class="column">
+		<img src="meals.png">
+		<div class="sub">Enjoy meals</div>
+		<div class="subline"> Food is made and delivered directly to your home.</div><br><br><br><br>
+	  </div>
+      
+	  <h3>Delivery Bakery in Pune</h3>
+	  <div id="c1" class="Fondant">
+		<a target="_blank" href="FCake1.jpg">
+		  <img src="FCake1.jpg" width="300" height="300">
+		</a>
+		<div class="title">The Cake House</div>
+		<p class="subl">Bakery,Desert $20per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+	  </div>
+	  
+	  <div class="Fondant">
+		<a target="_blank" href="FCake2.avif">
+		  <img src="FCake2.avif"  width="300" height="300">
+		</a>
+		<div class="title">The Rolling Pin</div>
+		<p class="subl">Cafe, Beverages $16per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+	  </div>
+	  
+	  <div  class="Fondant">
+		<a target="_blank" href="FCake6.avif">
+		  <img src="FCake6.avif"  width="300" height="300">
+		</a>
+		<div class="title">Bake Ur Day</div>
+		<p class="subl">Bakery,cafe    $10per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+	  </div>
+
+	  <div id="c1" class="Fondant">
+		<a target="_blank" href="FCake7.avif">
+		  <img src="FCake7.avif"  width="300" height="300">
+		</a>
+		<div class="title">Sweet Alley Cake Shop</div>
+		<p class="subl">Bakery,Desert    $1.5per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+		<div></div>
+	  </div>
+
+	  <div class="Fondant">
+		<a target="_blank" href="FCake5.avif">
+		  <img src="FCake5.avif"  width="300" height="300">
+		</a>
+		<div class="title">Soufflé Cake Shop</div>
+		<p class="subl">cafe,Desert    $29per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+	  </div>
+	  <div class="Fondant">
+		<a target="_blank" href="FCake8.avif">
+		  <img src="FCake8.avif"  width="300" height="300">
+		</a>
+		<div class="title">Jeden - The Cake Expert</div>
+		<p class="subl">Bakery,street food    $9.2per person</p>
+		<div class="offer"><a href="#" id="tag1">Order Now</a></div>
+	  </div>
+
+	  <h3>Search By Other Desert</h3>
+	  <div id="c2" class="Desert">
+		<a target="_blank" href="Pastry.jpeg">
+		  <img src="Pastry.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Pastries</div>
+	  </div>
+	  
+	  <div class="Desert">
+		<a target="_blank" href="Coffee.jpeg">
+		  <img src="Coffee.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Hot Coffee</div>
+	  </div>
+	  
+	  <div  class="Desert">
+		<a target="_blank" href="IceCream.jpeg">
+		  <img src="IceCream.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Ice-Cream</div>
+	  </div>
+
+	  <div  class="Desert">
+		<a target="_blank" href="Cold.jpeg">
+		  <img src="Cold.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Cold Coffee</div>
+		<div></div>
+	  </div>
+
+	  <div class="Desert">
+		<a target="_blank" href="Shakes.jpeg">
+		  <img src="Shakes.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Shakes</div>
+	  </div>
+
+	  <div class="Desert">
+		<a target="_blank" href="Wafflw.jpeg">
+		  <img src="Wafflw.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Waffles</div>
+	  </div>
+
+	  <div class="Desert">
+		<a target="_blank" href="Mojitos.jpeg">
+		  <img src="Mojitos.jpeg" width="150" height="150">
+		</a>
+		<div class="title1">Mojitos</div>
+	  </div><br>
+</div>
+
+<!-- DIVISION FIVE: -->
+<div id="div4">
+	<div class="last">
+     <div class="d"><img id="image" src="discounts.png"></div>
+	 <h2 class="line1">Daily <br>Discounts</h2>
+	 <div class="d"> <img id="image" src="live-tracking.png"></div>
+	 <h2 class="line1">Live<br> Tracking</h2>
+	 <div class="d"> <img id="image" src="quick-delivery.png"></div>
+	 <h2 class="line1">Quick<br> Delivery</h2>
+	</div>
+	<div class="Iphone">
+		<img id="phone" src="phone.png" height="410px">
+	</div>
+	<div class="app">
+		<h1 class="app1" >Install The App</h1><br>
+		<p class="app2">It's never been easier to order food. Look for the finest<br>
+			discounts and you'll be lost in a world of delectable food.</p>
+	</div>
+	<div id="Apple">
+		<img  src="Apple.png" width="300px">
+	</div>
+	<div id="Apple1">
+	<img  src="gplay.png" width="300px"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+    <style>
+        div
+        {
+            height: 100px;
+            width: 100px;
+            background:blue;
+            animation: anim1 2s infinite;
+            /* animation-iteration-count: 4; */
+            /* animation-delay: 2s; */
+        }
+        @-webkit-keyframes anim1
+        {
+            20% {background: red; margin-left: 300px; border-radius: 50px;}
+            40% {background: black; margin-left: 500px; border-radius: 0px;}
+            60% {background: yellow; margin-left: 700px; border-radius: 50px;}
+            100%{background: green; margin-left: 900px; border-radius: 0px;}
+        }
+        #div2
+        {
+            width: 500px;
+            height: 400px;
+            animation: anim2 5s infinite;
+            margin-left: 500px;
+        }
+        @-webkit-keyframes anim2
+        {
+            0%{background: url('nature1.jpeg');}
+            20%{background: url('nature2.jpeg');}
+            40%{background: url('nature3.jpeg');}
+            60%{background: url('nature4.jpeg');}
+            100%{background: url('nature5.jpeg');}
+        }
+        img
+        {
+           animation: anim3 5s infinite;
+           position: relative;
+        }
+        @-webkit-keyframes anim3
+        {
+            10% {transform: rotate(360deg);left: 250px; top: 300px;}
+            30% {transform: rotate(0deg);left: 500px; top: 0px;}
+            50% {transform: rotate(360deg);left: 750px; top: 300px;}
+            70% {transform: rotate(0deg);left: 1000px; top: 0px;}
+            80%{transform: rotate(360deg);left: 1250px; top: 300px;}
+            100%{transform: rotate(0deg);left: 1500px; top: 0px;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div></div><hr>
+    <!-- <div id="div2"></div> -->
+    <img src="nature5.jpeg" height="100px" width="100px">
+</body>
+</html>
+

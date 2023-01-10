@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ASSIGNMENT</title>
+
+  <style>       
+    #div1 {
+    position:relative;
+    width:530px;
+    height:530px;
+    margin:0 auto 10px;
+    border:2px rgb(101, 98, 98) dotted;
+    padding:10px;
+  }
+  .c1 {
+    font-size:12px;
+    position:relative;
+    width:60px;
+    height:60px;
+    margin-bottom:10px;
+    background-color:whitesmoke;
+  }
+  .c1 p {
+    text-align:center;
+    padding-top:4px;
+  }
+  #div2.c1 {
+    transition: all 4s ease;   
+    border:1px red solid;
+  }
+  #div3.c1 {
+   transition: all 4s ease-in;  
+   border:1px greenyellow solid;
+  }
+  #div4.c1 {
+   transition: all 4s ease-out;  
+   border:1px blue solid;
+  }
+  #div5.c1 {
+   transition: all 4s ease-in-out; 
+   border:1px yellow solid;
+  }
+  #div6.c1 {
+   transition: all 4s linear;
+   border:1px palevioletred solid;
+  }
+  #div7.c1 {
+   transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+   border:1px aqua solid;
+  }
+  #div8.c1 {
+   transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425); 
+   border:1px black dotted;
+  }
+  #div1:hover .c1 {
+
+    border-radius:30px;
+    transform: rotate(720deg); 
+    margin-left:420px;
+    background-color:white;
+  }
+  </style>
+</head>
+
+<body> 
+
+     <div id="div1" class="shadow hover">
+     <div id="div2" class="c1"><p>Ease</p></div>
+     <div id="div3" class="c1"><p>Ease<br>In</p></div>
+     <div id="div4" class="c1"><p>Ease<br>Out</p></div>
+     <div id="div5" class="c1"><p>Ease<br>In Out</p></div>
+     <div id="div6" class="c1"><p>Linear</p></div>
+     <div id="div7" class="c1"><p>Custom</p></div>
+     <div id="div8" class="c1"><p>Awesome!</p></div>
+    
+</body>
+</html>

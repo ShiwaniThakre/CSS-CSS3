@@ -1,0 +1,223 @@
+/* .last1
+  {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    margin-left: 100px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 35px;
+    box-shadow: rgba(255, 179, 14, 0.3) 0px 0px 3rem 0px !important;
+  } */
+
+#g1
+{
+    margin-left: 12%;
+}
+div.gallery {
+    margin: 25px;
+    border: 2px solid rgb(41, 9, 48);
+    float: left;
+    width: 280px;
+    border-radius: 20%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(73, 208, 55);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 28%;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .price
+  {
+    margin-bottom: 30px;
+    margin-left: 70px;
+  }
+  #tag
+  {
+  text-decoration: none;
+	color: white;
+	background: brown;
+	border-radius: 8px;
+	padding: 10px 20px;
+  }
+    
+  div.column 
+  {
+    
+    padding-top:80px ;
+    float: left;
+    width: 350px;
+  }
+  .column img
+  {
+    margin-left: 180px;
+    float: left;
+    height: 170px;
+    width: 130px;
+  }
+  
+  h3
+  {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .sub
+  {
+    padding-left: 150px;
+    padding-top: 220px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .subline
+  {
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:20px;
+  }
+  #c1
+  {
+    margin-left: 13%;
+  }
+  .Fondant
+  {
+    margin: 45px;
+    margin-top: 50px;
+     float: left;
+    width: 310px;
+    height: 450px;
+  }
+  .Fondant img
+  {
+    border-radius: 20%;
+    margin-left: 5px;
+    float: left;
+  }
+  .title
+  {
+    text-decoration:underline;
+    padding-top: 90px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  .offer
+  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: center;
+    width: 200px;
+  }
+  .subl
+  {
+    text-align: center;
+    padding-top: 10px;
+    font-size:0.8em;
+  }
+  #tag1
+  {
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 15px 50px;
+    font-size: large;
+  }
+  #c2
+  {
+    margin-left: 5%;
+  }
+  .Desert
+  {
+    margin: 5px;
+    margin-top: 50px;
+     float: left;
+    width: 180px;
+    height: 300px;
+  }
+  .Desert img
+  {
+    border-radius: 50%;
+    margin-left: 5px;
+    float: left;
+  }
+  .title1
+  {
+    padding-top: 90px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .last
+  {
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    margin-left: 100px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 35px;
+    box-shadow: rgba(255, 179, 14, 0.3) 0px 0px 3rem 0px !important;
+  }
+  .d{
+    margin-left: 70px;
+  }
+  #image
+  {
+    margin-top: 30px;
+  }
+  .line1
+  {
+    -webkit-text-fill-color: chocolate;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 60px;
+  }
+  #phone
+  {
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+  }
+  .app
+  {
+    margin-top: 180px;
+    margin-left: 750px;
+  }
+  .app1
+  {
+    -webkit-text-fill-color: rgb(114, 45, 41);
+    font-size:4em;
+  }
+  .app2
+  {
+    -webkit-text-fill-color: rgb(48, 22, 20);
+    font-size: x-large;
+  }
+  #Apple
+  {
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+  }
+  #Apple1
+  {
+    margin-top: 50px;
+  }
